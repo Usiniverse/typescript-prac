@@ -1,0 +1,11 @@
+# Dependency directories
+node_modules
+.vscode
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Optional npm cache directory
+.npm
+.env
