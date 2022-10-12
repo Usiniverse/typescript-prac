@@ -1,0 +1,23 @@
+{
+  "name": "typescript-prac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Usiniverse/typescript-prac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Usiniverse/typescript-prac/issues"
+  },
+  "homepage": "https://github.com/Usiniverse/typescript-prac#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
