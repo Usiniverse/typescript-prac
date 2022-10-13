@@ -1,5 +1,7 @@
-type Check<T> = T extends string ? boolean : number;
-type Type = Check<string>; // boolean
+type Check<T> = T extends string? boolean : number; 
+// 기존의 타입이 string을 상속한다면 boolean타입으로 결정하고 아니라면 number
+
+type Type = Check<string>; // boolean 
 
 type TypeName<T> = T extends string
   ? 'string'
@@ -13,9 +15,7 @@ type TypeName<T> = T extends string
   ? 'function'
   : 'object';
 
-type T0 = TypeName<string>;
-('string');
-type T1 = TypeName<'a'>;
-('string');
-type T2 = TypeName<() => void>;
-('function');
+  type T0 = TypeName<string>;
+  type T1 = TypeName<'a'>;
+  type T2 = TypeName<() => void>;
+   

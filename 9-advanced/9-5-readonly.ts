@@ -5,6 +5,6 @@
   };
 
   function display(todo: Readonly<ToDo>) {
-    // todo.title = 'jaja';
+    // todo.title = 'jaja'; 
   }
 }

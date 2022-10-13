@@ -1,4 +1,6 @@
 {
+  // partial 활용 예제 *****************8
+  
   type ToDo = {
     title: string;
     description: string;
@@ -7,14 +9,15 @@
   };
 
   function updateTodo(todo: ToDo, fieldsToUpdate: Partial<ToDo>): ToDo {
-    return { ...todo, ...fieldsToUpdate };
+    return { ...todo, ...fieldsToUpdate }; 
   }
   const todo: ToDo = {
     title: 'learn TypeScript',
     description: 'study hard',
     label: 'study',
-    priority: 'high',
+    priority: 'high'
   };
   const updated = updateTodo(todo, { priority: 'low' });
   console.log(updated);
+  
 }
